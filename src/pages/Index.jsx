@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Container, VStack, HStack, Input, Button, Text, IconButton, Box, Select } from "@chakra-ui/react";
+import { Container, VStack, HStack, Input, Button, Text, IconButton, Box, Select, Checkbox } from "@chakra-ui/react";
 import { FaTrash } from "react-icons/fa";
 import { DndContext, closestCenter } from "@dnd-kit/core";
 import { arrayMove, SortableContext, verticalListSortingStrategy } from "@dnd-kit/sortable";
